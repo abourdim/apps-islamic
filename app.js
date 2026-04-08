@@ -598,7 +598,7 @@ function matches(app) {
   const query = normalize(q.value).trim();
   const words = query.split(/\s+/).filter(Boolean);
   const okQuery = words.length === 0 || words.every(w => text.includes(w));
-  const okFilter = !currentFilter || (app.categories && app.categories.includes(currentFilter));
+  const okFilter = currentLibrary || !currentFilter || (app.categories && app.categories.includes(currentFilter));
   const okStatus = !currentStatusFilter || app.status === currentStatusFilter;
   const okLibrary = !currentLibrary || app.library === currentLibrary;
   return okQuery && okFilter && okStatus && okLibrary;
@@ -885,6 +885,10 @@ function initListeners() {
       } else {
         btn.classList.add("active");
         currentLibrary = btn.dataset.library || "";
+        // Deselect category filter when library is active
+        filterButtons.forEach(b => b.classList.remove("active"));
+        filterButtons[0].classList.add("active"); // reset to "All"
+        currentFilter = "";
       }
       playSound("pop");
       render();
