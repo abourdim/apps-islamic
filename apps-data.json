@@ -332,27 +332,6 @@
       "visibility": "public"
     },
     {
-      "name": "al-maqlub",
-      "emoji": "↩️",
-      "categories": [
-        "arabic",
-        "ai"
-      ],
-      "badge": "dev",
-      "status": "dev",
-      "visibility": "public",
-      "tags": [
-        "arabic",
-        "reverse",
-        "language"
-      ],
-      "desc": {
-        "en": "Arabic text reversal and transformation tool.",
-        "fr": "Outil de transformation de texte arabe.",
-        "ar": "أداة عكس وتحويل النص العربي."
-      }
-    },
-    {
       "name": "al-miraat",
       "emoji": "🪞",
       "categories": [
@@ -482,74 +461,6 @@
       "visibility": "public"
     },
     {
-      "name": "arabic-speaker",
-      "emoji": "🗣",
-      "categories": [
-        "arabic"
-      ],
-      "badge": "stable",
-      "status": "stable",
-      "tags": [
-        "HTML",
-        "Islamic",
-        "arabic",
-        "web-app"
-      ],
-      "desc": {
-        "en": "🗣️ Arabic Speech App (Browser-Only)",
-        "fr": "Arabic Speaker — application Workshop-DIY.",
-        "ar": "تطبيق عربي وإسلامي تفاعلي من Workshop-DIY."
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "arabic-translator",
-      "emoji": "🌐",
-      "categories": [
-        "arabic"
-      ],
-      "badge": "stable",
-      "status": "stable",
-      "tags": [
-        "arabic",
-        "translate",
-        "browser-only",
-        "no-server"
-      ],
-      "desc": {
-        "en": "Translate text to and from Arabic directly in the browser — no server, no API key, fully offline-capable.",
-        "fr": "Traduisez du texte vers et depuis l'arabe dans le navigateur — sans serveur, sans clé API, fonctionne hors ligne.",
-        "ar": "ترجم النصوص من وإلى العربية مباشرة في المتصفح — بدون خادم، بدون مفتاح API، يعمل بدون إنترنت."
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "arabic-tts",
-      "emoji": "🔊",
-      "categories": [
-        "arabic",
-        "ai",
-        "tools"
-      ],
-      "badge": "new",
-      "status": "stable",
-      "tags": [
-        "BLE",
-        "TTS",
-        "game",
-        "git",
-        "linux",
-        "HTML",
-        "LED"
-      ],
-      "desc": {
-        "en": "Modern Standard Arabic Text-to-Speech system using VITS + HiFi-GAN, FastAPI and PyTorch.",
-        "fr": "Synthèse vocale arabe standard moderne avec VITS + HiFi-GAN, FastAPI et PyTorch.",
-        "ar": "نظام تحويل النص إلى كلام بالعربية الفصحى باستخدام VITS + HiFi-GAN و FastAPI و PyTorch."
-      },
-      "visibility": "public"
-    },
-    {
       "name": "ayqidh-taqatak",
       "emoji": "⚡",
       "categories": [
@@ -665,25 +576,6 @@
       }
     },
     {
-      "name": "elarabya",
-      "emoji": "🕌",
-      "categories": [
-        "arabic"
-      ],
-      "badge": "new",
-      "status": "dev",
-      "tags": [
-        "Islamic",
-        "arabic"
-      ],
-      "desc": {
-        "en": "Arabic language learning tools — grammar, vocabulary and exercises.",
-        "fr": "Outils d'apprentissage de la langue arabe — grammaire, vocabulaire et exercices.",
-        "ar": "أدوات تعلم اللغة العربية — قواعد، مفردات وتمارين."
-      },
-      "visibility": "public"
-    },
-    {
       "name": "fan-al-dhikr",
       "emoji": "🤲",
       "categories": [
@@ -724,36 +616,6 @@
         "en": "في موكب الدعوة — In the Procession of Dawah",
         "fr": "Fi Mawkib Al Dawa — application éducative islamique trilingue.",
         "ar": "في موكب الدعوة"
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "fihris",
-      "emoji": "📂",
-      "categories": [
-        "tools",
-        "learning",
-        "arabic"
-      ],
-      "badge": "new",
-      "status": "stable",
-      "tags": [
-        "BLE",
-        "camera",
-        "micro:bit",
-        "WLED",
-        "IoT",
-        "linux",
-        "security",
-        "HTML",
-        "robot",
-        "LED",
-        "kids"
-      ],
-      "desc": {
-        "en": "The Workshop-DIY App Catalog",
-        "fr": "Fihris — explorez et expérimentez !",
-        "ar": "Fihris — استكشف وجرّب!"
       },
       "visibility": "public"
     },
@@ -937,25 +799,6 @@
       "visibility": "public"
     },
     {
-      "name": "ierab",
-      "emoji": "🕌",
-      "categories": [
-        "arabic"
-      ],
-      "badge": "new",
-      "status": "dev",
-      "tags": [
-        "Islamic",
-        "arabic"
-      ],
-      "desc": {
-        "en": "Arabic grammar (I'rab) interactive exercises and lessons.",
-        "fr": "Exercices interactifs de grammaire arabe (I'rab) et leçons.",
-        "ar": "تمارين تفاعلية في الإعراب والنحو العربي."
-      },
-      "visibility": "public"
-    },
-    {
       "name": "iyadat-al-ummah",
       "emoji": "🩺",
       "categories": [
@@ -1018,57 +861,6 @@
         "en": "🌿 Jihad of Dawah — جهاد الدعوة بين عجز الداخل وكيد الخارج",
         "fr": "Jihad Al Dawah — application éducative islamique trilingue.",
         "ar": "جهاد الدعوة بين عجز الداخل وكيد الخارج"
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "jisr",
-      "emoji": "🌉",
-      "categories": [
-        "arabic",
-        "learning",
-        "hardware"
-      ],
-      "badge": "new",
-      "status": "stable",
-      "tags": [
-        "TTS",
-        "WLED",
-        "IoT",
-        "game",
-        "HTML",
-        "LED"
-      ],
-      "desc": {
-        "en": "Arabic etymology dictionary — trace the origins of words shared between Arabic, French and English.",
-        "fr": "Dictionnaire étymologique arabe — retracez les origines des mots partagés entre arabe, français et anglais.",
-        "ar": "قاموس أصول الكلمات العربية — تتبّع أصول الكلمات المشتركة بين العربية والفرنسية والإنجليزية."
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "kalami",
-      "emoji": "🗣️",
-      "categories": [
-        "arabic",
-        "microbit",
-        "ai"
-      ],
-      "badge": "new",
-      "status": "dev",
-      "tags": [
-        "BLE",
-        "TTS",
-        "STT",
-        "git",
-        "linux",
-        "HTML",
-        "LED"
-      ],
-      "desc": {
-        "en": "Arabic voice translator — speak in Arabic and get real-time translation to French and English.",
-        "fr": "Traducteur vocal arabe — parlez en arabe et obtenez une traduction en temps réel vers le français et l'anglais.",
-        "ar": "مترجم صوتي عربي — تحدث بالعربية واحصل على ترجمة فورية إلى الفرنسية والإنجليزية."
       },
       "visibility": "public"
     },
@@ -1258,30 +1050,6 @@
       "visibility": "public"
     },
     {
-      "name": "meridian",
-      "emoji": "🧭",
-      "categories": [
-        "tools",
-        "hardware"
-      ],
-      "badge": "new",
-      "status": "dev",
-      "tags": [
-        "BLE",
-        "ESP32",
-        "git",
-        "linux",
-        "HTML",
-        "LED"
-      ],
-      "desc": {
-        "en": "A self-hosted, privacy-first video platform — own your content, audience and data.",
-        "fr": "Plateforme vidéo auto-hébergée respectueuse de la vie privée — gardez le contrôle de votre contenu.",
-        "ar": "منصة فيديو مستضافة ذاتياً تحترم الخصوصية — تحكّم في محتواك وجمهورك وبياناتك."
-      },
-      "visibility": "public"
-    },
-    {
       "name": "miat-sual",
       "emoji": "🕌",
       "categories": [
@@ -1457,29 +1225,6 @@
         "fr": "1 091 quiz islamiques éducatifs pour enfants.",
         "ar": "1091 اختبار إسلامي تعليمي للأطفال المسلمين."
       }
-    },
-    {
-      "name": "piper-arabic-tts",
-      "emoji": "🎙️",
-      "categories": [
-        "arabic",
-        "ai"
-      ],
-      "badge": "stable",
-      "status": "beta",
-      "tags": [
-        "arabic",
-        "piper",
-        "WASM",
-        "TTS",
-        "neural"
-      ],
-      "desc": {
-        "en": "High-quality Arabic text-to-speech using Piper neural TTS compiled to WebAssembly — runs in the browser, no cloud needed.",
-        "fr": "Synthèse vocale arabe haute qualité avec Piper TTS neuronal compilé en WebAssembly — fonctionne dans le navigateur.",
-        "ar": "تحويل نص إلى كلام عربي عالي الجودة بتقنية Piper TTS العصبية عبر WebAssembly — يعمل في المتصفح."
-      },
-      "visibility": "public"
     },
     {
       "name": "qadaya-al-marah",
