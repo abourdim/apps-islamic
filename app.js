@@ -875,7 +875,7 @@ function initListeners() {
   });
 
   // Library filter buttons
-  const libraryButtons = [...document.querySelectorAll("[data-library]")];
+  const libraryButtons = [...document.querySelectorAll(".lib-btn[data-library]")];
   libraryButtons.forEach(btn => {
     btn.addEventListener("click", () => {
       const wasActive = btn.classList.contains("active");

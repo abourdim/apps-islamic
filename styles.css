@@ -553,23 +553,23 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
 }
 
 /* ── Filter buttons — geometric pill ── */
-[data-theme="islamic"] .mode-btn {
+[data-theme="islamic"] .mode-btn, .lib-btn {
   border-radius: 8px;
   font-family: var(--ff-medina) !important;
   font-size: 0.88rem;
   border-color: rgba(212,168,67,0.15);
 }
-[data-theme="islamic"] .mode-btn:hover {
+[data-theme="islamic"] .mode-btn:hover, .lib-btn:hover {
   border-color: var(--medina-gold);
   box-shadow: 0 4px 16px rgba(212,168,67,0.2);
 }
-[data-theme="islamic"] .mode-btn.active {
+[data-theme="islamic"] .mode-btn.active, .lib-btn.active {
   background: linear-gradient(135deg, var(--medina-gold), #b8922e);
   color: var(--medina-night);
   border-color: transparent;
   box-shadow: 0 4px 20px rgba(212,168,67,0.3);
 }
-[data-theme="islamic"] .mode-btn.active .filter-count {
+[data-theme="islamic"] .mode-btn.active, .lib-btn.active .filter-count {
   background: rgba(0,0,0,0.2);
 }
 
@@ -934,8 +934,8 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
   background: linear-gradient(135deg, var(--alh-gold), var(--alh-terracotta));
   color: var(--alh-night);
 }
-[data-theme="alhambra"] .mode-btn { border-radius: 8px; font-family: var(--ff-alhambra) !important; }
-[data-theme="alhambra"] .mode-btn.active {
+[data-theme="alhambra"] .mode-btn, .lib-btn { border-radius: 8px; font-family: var(--ff-alhambra) !important; }
+[data-theme="alhambra"] .mode-btn.active, .lib-btn.active {
   background: linear-gradient(135deg, var(--alh-gold), var(--alh-terracotta));
   color: var(--alh-night);
 }
@@ -1187,8 +1187,8 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
 [data-theme="iznik"] .kids-link { border-radius: 10px; font-family: var(--ff-iznik) !important; }
 [data-theme="iznik"] .kids-link.primary { background: linear-gradient(135deg, var(--izn-turq), var(--izn-cobalt)); }
 [data-theme="iznik"] .kids-link.primary:hover { box-shadow: 0 4px 20px rgba(0,188,212,0.4); }
-[data-theme="iznik"] .mode-btn { border-radius: 10px; font-family: var(--ff-iznik) !important; }
-[data-theme="iznik"] .mode-btn.active {
+[data-theme="iznik"] .mode-btn, .lib-btn { border-radius: 10px; font-family: var(--ff-iznik) !important; }
+[data-theme="iznik"] .mode-btn.active, .lib-btn.active {
   background: linear-gradient(135deg, var(--izn-turq), var(--izn-cobalt));
   color: var(--izn-white);
 }
@@ -1449,8 +1449,8 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
 /* Buttons & controls */
 [data-theme="zellige"] .kids-link { border-radius: 8px; font-family: var(--ff-zellige) !important; }
 [data-theme="zellige"] .kids-link.primary { background: linear-gradient(135deg, var(--zel-emerald), #0f5e35); }
-[data-theme="zellige"] .mode-btn { border-radius: 8px; font-family: var(--ff-zellige) !important; }
-[data-theme="zellige"] .mode-btn.active {
+[data-theme="zellige"] .mode-btn, .lib-btn { border-radius: 8px; font-family: var(--ff-zellige) !important; }
+[data-theme="zellige"] .mode-btn.active, .lib-btn.active {
   background: linear-gradient(135deg, var(--zel-emerald), var(--zel-sapphire));
   color: #fff;
 }
@@ -1749,8 +1749,8 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
   border-color: var(--arb-sage);
   color: var(--arb-moon);
 }
-[data-theme="arabesque"] .mode-btn { border-radius: 12px; font-family: var(--ff-arabesque) !important; }
-[data-theme="arabesque"] .mode-btn.active {
+[data-theme="arabesque"] .mode-btn, .lib-btn { border-radius: 12px; font-family: var(--ff-arabesque) !important; }
+[data-theme="arabesque"] .mode-btn.active, .lib-btn.active {
   background: linear-gradient(135deg, var(--arb-sage), var(--arb-indigo));
   color: var(--arb-moon);
 }
@@ -2059,7 +2059,7 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
   justify-content: center;
   flex-wrap: wrap;
 }
-.mode-btn {
+.mode-btn, .lib-btn {
   all: unset;
   cursor: pointer;
   display: flex;
@@ -2076,13 +2076,13 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
   transition: all var(--transition);
   white-space: nowrap;
 }
-.mode-btn:hover {
+.mode-btn:hover, .lib-btn:hover {
   transform: translateY(-2px) scale(1.03);
   border-color: var(--accent);
   color: var(--text-primary);
   box-shadow: 0 4px 16px var(--glow);
 }
-.mode-btn.active {
+.mode-btn.active, .lib-btn.active {
   background: linear-gradient(135deg, var(--accent), var(--accent2));
   color: #fff;
   border-color: transparent;
@@ -2097,7 +2097,7 @@ body { min-height: 100vh; overflow-x: hidden; transition: background 0.5s, color
   border-radius: 50px;
   font-weight: 700;
 }
-.mode-btn.active .filter-count { background: rgba(255,255,255,0.3); }
+.mode-btn.active, .lib-btn.active .filter-count { background: rgba(255,255,255,0.3); }
 
 /* ============================================================
    SEARCH ROW
