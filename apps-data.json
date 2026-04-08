@@ -6,7 +6,7 @@
       "name": "al-dawah-fi-al-qarn",
       "emoji": "📢",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -29,7 +29,7 @@
       "name": "al-fasad-al-siyasi",
       "emoji": "🏛",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -52,7 +52,7 @@
       "name": "al-ghazali-library",
       "emoji": "📚",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "new",
       "status": "dev",
@@ -74,7 +74,7 @@
       "name": "al-ghazw-al-thaqafi",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -97,7 +97,7 @@
       "name": "al-ghirbal",
       "emoji": "⛔",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -120,7 +120,7 @@
       "name": "al-hayat-al-ula",
       "emoji": "🌅",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -143,7 +143,7 @@
       "name": "al-islam-al-muftara-alayh",
       "emoji": "⚖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -166,7 +166,7 @@
       "name": "al-islam-fi-wajh-al-zahf",
       "emoji": "🔴",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -189,7 +189,7 @@
       "name": "al-islam-wa-qanun",
       "emoji": "⚖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -212,7 +212,7 @@
       "name": "al-islam-wal-awda-al-iqtisadiyah",
       "emoji": "💰",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -235,7 +235,7 @@
       "name": "al-islam-wal-istibdad",
       "emoji": "⚖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -258,7 +258,7 @@
       "name": "al-islam-wal-manahij",
       "emoji": "🟠",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -281,7 +281,7 @@
       "name": "al-istimar",
       "emoji": "🏴",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -304,7 +304,7 @@
       "name": "al-janib-al-atifi",
       "emoji": "💗",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -327,7 +327,7 @@
       "name": "al-mahawir-al-khamsah",
       "emoji": "🔥",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -350,7 +350,7 @@
       "name": "al-miraat",
       "emoji": "🪞",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -373,7 +373,7 @@
       "name": "al-saaiqa",
       "emoji": "⛈",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -396,7 +396,7 @@
       "name": "al-sunnah-al-nabawiyah",
       "emoji": "📜",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -419,7 +419,7 @@
       "name": "al-taassub-wal-tasamuh",
       "emoji": "🕊",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -461,7 +461,7 @@
       "name": "aqidat-al-muslim",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -484,7 +484,7 @@
       "name": "ayqidh-taqatak",
       "emoji": "⚡",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -534,7 +534,7 @@
       "name": "difaa-al-aqidah",
       "emoji": "🛡",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -557,7 +557,7 @@
       "name": "dustur-al-wahdah",
       "emoji": "🤝",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -602,7 +602,7 @@
       "name": "fan-al-dhikr",
       "emoji": "🤲",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -625,7 +625,7 @@
       "name": "fi-mawkib-al-dawa",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -648,7 +648,7 @@
       "name": "fiqh-al-sirah",
       "emoji": "📜",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -740,7 +740,7 @@
       "name": "haqiqat-al-qawmiyah",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -763,7 +763,7 @@
       "name": "hasad-al-ghurur",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -786,7 +786,7 @@
       "name": "humum-daiya",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -809,7 +809,7 @@
       "name": "huquq-al-insan",
       "emoji": "⚖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -832,7 +832,7 @@
       "name": "iyadat-al-ummah",
       "emoji": "🩺",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -855,7 +855,7 @@
       "name": "jaddid-hayatak",
       "emoji": "🌅",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "dev",
       "status": "beta",
@@ -878,7 +878,7 @@
       "name": "jihad-al-dawah",
       "emoji": "🌿",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -901,7 +901,7 @@
       "name": "kayfa-nafham",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -924,7 +924,7 @@
       "name": "kayfa-nataamal-maa-al-quran",
       "emoji": "📖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -947,7 +947,7 @@
       "name": "khuluq-al-muslim",
       "emoji": "🌟",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -970,7 +970,7 @@
       "name": "khutab-al-ghazali",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -993,7 +993,7 @@
       "name": "kunuz-min-al-sunnah",
       "emoji": "✨",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1047,7 +1047,7 @@
       "name": "maa-allah",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1070,7 +1070,7 @@
       "name": "marakah-al-mushaf",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1093,7 +1093,7 @@
       "name": "miat-sual",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1116,7 +1116,7 @@
       "name": "min-huna-nalam",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1139,7 +1139,7 @@
       "name": "mushkilat",
       "emoji": "📖",
       "categories": [
-        "tools"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1161,7 +1161,7 @@
       "name": "nahwa-tafsir-mawdui",
       "emoji": "🌊",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1184,7 +1184,7 @@
       "name": "nazarat-fi-al-quran",
       "emoji": "📖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1275,7 +1275,7 @@
       "name": "qadaya-al-marah",
       "emoji": "🌹",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1298,7 +1298,7 @@
       "name": "qadhaaif-al-haqq",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1321,7 +1321,7 @@
       "name": "rakaiz-al-iman",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1344,7 +1344,7 @@
       "name": "ramadan-wal-siyam",
       "emoji": "📖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1367,7 +1367,7 @@
       "name": "rihlati-fikriyah",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1413,7 +1413,7 @@
       "name": "sayhah-tahdhir",
       "emoji": "📖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1436,7 +1436,7 @@
       "name": "shahid-ala-al-asr",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1459,7 +1459,7 @@
       "name": "taamulat",
       "emoji": "🌿",
       "categories": [
-        "tools"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1481,7 +1481,7 @@
       "name": "tarbiyat-al-awlad",
       "emoji": "📖",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
@@ -1550,7 +1550,7 @@
       "name": "zalam-min-al-gharb",
       "emoji": "🕌",
       "categories": [
-        "arabic"
+        "learning"
       ],
       "badge": "stable",
       "status": "stable",
