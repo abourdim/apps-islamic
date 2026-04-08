@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workshop-DIY Launcher</title>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #0b1a1a;
+  --bg-secondary: #0f2626;
+  --bg-card: #132e2e;
+  --bg-card-hover: #1a3d3a;
+  --text-primary: #f2e8d0;
+  --text-secondary: #a8b8a0;
+  --accent: #d4a843;
+  --accent2: #1b8c6a;
+  --accent3: #f0c75e;
+  --border: rgba(212,168,67,0.18);
+  --glow: rgba(212,168,67,0.30);
+  --radius: 18px;
+  --radius-sm: 10px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.3);
+  --shadow-hover: 0 8px 40px rgba(0,0,0,0.4);
+  --ff: 'El Messiri', 'Nunito', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--ff);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Islamic geometric background */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAnIGhlaWdodD0nMTAwJz4KICA8ZGVmcz48cGF0dGVybiBpZD0nZycgd2lkdGg9JzEwMCcgaGVpZ2h0PScxMDAnIHBhdHRlcm5Vbml0cz0ndXNlclNwYWNlT25Vc2UnPgogICAgPGcgZmlsbD0nbm9uZScgc3Ryb2tlPSdyZ2JhKDIwMCwxNjAsNjAsMC4wOSknIHN0cm9rZS13aWR0aD0nMC43Jz4KICAgICAgPHBvbHlnb24gcG9pbnRzPSc1MCw2IDU4LDMwIDgyLDIyIDcwLDQ0IDg0LDYyIDYwLDU2IDU4LDgwIDUwLDYyIDQyLDgwIDQwLDU2IDE2LDYyIDMwLDQ0IDE4LDIyIDQyLDMwJy8+CiAgICAgIDxwb2x5Z29uIHBvaW50cz0nNTAsMjQgNTUsMzYgNjgsMzIgNjIsNDIgNzAsNTIgNTcsNTAgNTYsNjIgNTAsNTQgNDQsNjIgNDMsNTAgMzAsNTIgMzgsNDIgMzIsMzIgNDUsMzYnLz4KICAgICAgPGNpcmNsZSBjeD0nNTAnIGN5PSc1MCcgcj0nMTEnIHN0cm9rZS13aWR0aD0nMC41Jy8+CiAgICA8L2c+CiAgPC9wYXR0ZXJuPjwvZGVmcz4KICA8cmVjdCB3aWR0aD0nMTAwJyBoZWlnaHQ9JzEwMCcgZmlsbD0ndXJsKCNnKScvPgo8L3N2Zz4=");
+  background-size: 100px 100px;
+}
+
+.container { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 24px; }
+
+/* Bismillah */
+.bismillah {
+  text-align: center;
+  font-family: 'Scheherazade New', 'Arial Unicode MS', serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: rgba(212,168,67,0.35);
+  padding: 8px 0;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 24px 0 16px;
+}
+.header h1 {
+  font-family: 'El Messiri', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f0c75e 0%, #d4a843 40%, #b8922e 70%, #f0c75e 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: goldShimmer 4s ease-in-out infinite;
+}
+@keyframes goldShimmer {
+  0%, 100% { background-position: 0% center; }
+  50% { background-position: 200% center; }
+}
+.header .sub { font-size: 14px; color: var(--text-secondary); margin-top: 4px; }
+
+/* Status bar */
+.status-bar {
+  display: flex; justify-content: center; gap: 20px;
+  padding: 12px 0; flex-wrap: wrap;
+}
+.stat {
+  font-size: 13px; font-weight: 700; color: var(--text-secondary);
+  display: flex; align-items: center; gap: 6px;
+}
+.stat .num { color: var(--accent3); font-size: 16px; font-weight: 800; }
+.stat.online .dot { width: 8px; height: 8px; border-radius: 50%; background: #2e7d32; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+/* Tabs */
+.tabs {
+  display: flex; gap: 4px; padding: 8px 0 20px;
+  justify-content: center; flex-wrap: wrap;
+}
+.tab {
+  padding: 8px 18px; border-radius: 30px; cursor: pointer;
+  font-size: 13px; font-weight: 700; border: 2px solid transparent;
+  background: var(--bg-secondary); color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+.tab:hover { border-color: var(--border); color: var(--text-primary); }
+.tab.active {
+  background: linear-gradient(135deg, rgba(212,168,67,0.15), rgba(27,140,106,0.15));
+  border-color: var(--accent);
+  color: var(--accent3);
+}
+
+/* Cards grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+  padding-bottom: 20px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: "";
+  position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  opacity: 0.6;
+}
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-hover), 0 0 30px var(--glow);
+  background: var(--bg-card-hover);
+}
+.card .emoji { font-size: 36px; margin-bottom: 10px; }
+.card .name { font-size: 16px; font-weight: 700; margin-bottom: 6px; color: var(--text-primary); }
+.card .desc { font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 14px; }
+.card .run-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 20px; border-radius: 25px; border: none;
+  font-family: var(--ff); font-size: 13px; font-weight: 700;
+  cursor: pointer; transition: all 0.2s;
+  background: linear-gradient(135deg, var(--accent), #b8922e);
+  color: #0b1a1a;
+}
+.card .run-btn:hover { transform: scale(1.05); box-shadow: 0 4px 16px var(--glow); }
+.card .run-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+.card .badge-status {
+  position: absolute; top: 14px; right: 14px;
+  font-size: 10px; font-weight: 800; padding: 3px 10px;
+  border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;
+}
+.badge-idle { background: rgba(255,255,255,0.08); color: var(--text-secondary); }
+.badge-running { background: rgba(212,168,67,0.2); color: var(--accent3); animation: pulse 1s infinite; }
+.badge-done { background: rgba(27,140,106,0.2); color: #4caf50; }
+.badge-error { background: rgba(255,60,60,0.2); color: #ff5252; }
+
+/* Terminal */
+.terminal {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
+  background: #0a0e0e; border-top: 2px solid var(--border);
+  transition: transform 0.3s ease;
+}
+.terminal.collapsed { transform: translateY(calc(100% - 40px)); }
+.terminal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 20px; background: #0d1414; cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.terminal-header .title { font-size: 13px; font-weight: 700; color: var(--accent3); display: flex; align-items: center; gap: 8px; }
+.terminal-header .actions { display: flex; gap: 8px; }
+.terminal-header .actions button {
+  background: none; border: 1px solid rgba(255,255,255,0.1); color: var(--text-secondary);
+  padding: 3px 10px; border-radius: 4px; font-size: 11px; cursor: pointer; font-family: var(--ff);
+}
+.terminal-header .actions button:hover { border-color: var(--accent); color: var(--accent3); }
+.terminal-body {
+  height: 260px; overflow-y: auto; padding: 12px 20px;
+  font-family: 'Fira Code', 'Source Code Pro', 'Courier New', monospace;
+  font-size: 13px; line-height: 1.6; color: #c8d6c0; white-space: pre-wrap; word-break: break-all;
+}
+.terminal-body::-webkit-scrollbar { width: 6px; }
+.terminal-body::-webkit-scrollbar-thumb { background: rgba(212,168,67,0.3); border-radius: 3px; }
+.terminal-body .line-ok { color: #4caf50; }
+.terminal-body .line-err { color: #ff5252; }
+.terminal-body .line-warn { color: #f0c75e; }
+.terminal-body .line-info { color: #64b5f6; }
+
+/* Flyer form modal */
+.modal-overlay {
+  display: none; position: fixed; inset: 0; z-index: 200;
+  background: rgba(0,0,0,0.7); backdrop-filter: blur(4px);
+  justify-content: center; align-items: flex-start;
+  padding: 40px 20px; overflow-y: auto;
+}
+.modal-overlay.active { display: flex; }
+.modal {
+  background: var(--bg-secondary); border: 2px solid var(--border);
+  border-radius: var(--radius); padding: 32px;
+  width: 100%; max-width: 700px;
+}
+.modal h2 { font-size: 20px; margin-bottom: 20px; color: var(--accent3); }
+.modal label { display: block; font-size: 12px; font-weight: 700; color: var(--text-secondary); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 1px; }
+.modal input, .modal select, .modal textarea {
+  width: 100%; padding: 10px 14px; border-radius: var(--radius-sm);
+  border: 2px solid var(--border); background: var(--bg-primary);
+  color: var(--text-primary); font-family: var(--ff); font-size: 14px;
+  margin-bottom: 14px; outline: none; transition: border-color 0.2s;
+}
+.modal input:focus, .modal select:focus { border-color: var(--accent); }
+.modal .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.modal .theme-picker { display: flex; gap: 8px; margin-bottom: 14px; }
+.modal .theme-swatch {
+  width: 36px; height: 36px; border-radius: 50%; cursor: pointer;
+  border: 3px solid transparent; transition: all 0.2s;
+}
+.modal .theme-swatch.active { border-color: var(--text-primary); transform: scale(1.15); }
+.modal .btn-row { display: flex; gap: 12px; margin-top: 8px; }
+.modal .btn-primary {
+  padding: 10px 28px; border-radius: 25px; border: none;
+  background: linear-gradient(135deg, var(--accent), #b8922e);
+  color: #0b1a1a; font-family: var(--ff); font-size: 14px; font-weight: 700;
+  cursor: pointer; transition: all 0.2s;
+}
+.modal .btn-primary:hover { transform: scale(1.03); box-shadow: 0 4px 16px var(--glow); }
+.modal .btn-secondary {
+  padding: 10px 28px; border-radius: 25px; cursor: pointer;
+  border: 2px solid var(--border); background: transparent;
+  color: var(--text-secondary); font-family: var(--ff); font-size: 14px; font-weight: 700;
+}
+.modal .btn-secondary:hover { border-color: var(--accent); color: var(--text-primary); }
+
+/* Flyer preview */
+.preview-frame {
+  margin-top: 18px; border: 2px solid var(--border); border-radius: var(--radius-sm);
+  overflow: hidden; background: #fff;
+}
+.preview-frame iframe { width: 1080px; height: 1400px; border: none; transform: scale(0.55); transform-origin: top left; }
+.preview-wrap { width: 100%; height: 770px; overflow: hidden; }
+.fb-text { width: 100%; height: 200px; font-size: 13px; resize: vertical; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .modal .field-row { grid-template-columns: 1fr; }
+  .header h1 { font-size: 1.6rem; }
+}
+@media (max-width: 480px) {
+  .grid { grid-template-columns: 1fr; }
+  .container { padding: 12px; }
+}
+
+/* Padding for terminal */
+.content-wrap { padding-bottom: 50px; }
+</style>
+</head>
+<body>
+
+<div class="container content-wrap">
+  <div class="bismillah">&rlm;&#1576;&#1616;&#1587;&#1618;&#1605;&#1616; &#1575;&#1604;&#1604;&#1617;&#1614;&#1607;&#1616; &#1575;&#1604;&#1585;&#1617;&#1614;&#1581;&#1618;&#1605;&#1614;&#1600;&#1606;&#1616; &#1575;&#1604;&#1585;&#1617;&#1614;&#1581;&#1616;&#1610;&#1605;&#1616;&rlm;</div>
+
+  <div class="header">
+    <h1>Workshop-DIY Launcher</h1>
+    <div class="sub" id="subtitle">Loading...</div>
+  </div>
+
+  <div class="status-bar" id="statusBar"></div>
+
+  <div class="tabs" id="tabs"></div>
+
+  <div class="grid" id="grid"></div>
+</div>
+
+<!-- Flyer modal -->
+<div class="modal-overlay" id="flyerModal">
+  <div class="modal">
+    <h2>Event Flyer Generator</h2>
+
+    <label>Application</label>
+    <select id="flyerApp"></select>
+
+    <label>Theme</label>
+    <div class="theme-picker" id="themePicker">
+      <div class="theme-swatch active" data-theme="auto" style="background:linear-gradient(135deg,#d4820a,#0a9e72,#3a7bd5,#7c3aed)" title="Auto"></div>
+      <div class="theme-swatch" data-theme="Gold" style="background:#d4820a" title="Gold"></div>
+      <div class="theme-swatch" data-theme="Teal" style="background:#0a9e72" title="Teal"></div>
+      <div class="theme-swatch" data-theme="Blue" style="background:#3a7bd5" title="Blue"></div>
+      <div class="theme-swatch" data-theme="Violet" style="background:#7c3aed" title="Violet"></div>
+    </div>
+
+    <div class="field-row">
+      <div><label>Date</label><input type="text" id="flyerDate" placeholder="Dimanche 8 mars 2026"></div>
+      <div><label>Horaire</label><input type="text" id="flyerTime" placeholder="9h - 11h30"></div>
+    </div>
+    <label>Lieu</label>
+    <input type="text" id="flyerLieu" placeholder="Parc du Souvenir - Chelles">
+
+    <label>Features (4 lines with emoji)</label>
+    <input type="text" id="feat1" placeholder="&#x1f527; Decouvre l'application">
+    <input type="text" id="feat2" placeholder="&#x1f4e1; Connecte-toi en Bluetooth">
+    <input type="text" id="feat3" placeholder="&#x1f3ae; Teste les fonctionnalites">
+    <input type="text" id="feat4" placeholder="&#x1f680; Partage tes resultats">
+
+    <div class="btn-row">
+      <button class="btn-primary" onclick="generateFlyer()">Generate</button>
+      <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+    </div>
+
+    <div id="flyerResult" style="display:none; margin-top:20px;">
+      <label>Preview</label>
+      <div class="preview-frame"><div class="preview-wrap"><iframe id="flyerPreview"></iframe></div></div>
+      <label style="margin-top:14px">Facebook Post (copy)</label>
+      <textarea class="fb-text" id="fbText" readonly></textarea>
+    </div>
+  </div>
+</div>
+
+<!-- Terminal -->
+<div class="terminal collapsed" id="terminal">
+  <div class="terminal-header" onclick="toggleTerminal()">
+    <span class="title"><span>&#x1f4bb;</span> Terminal</span>
+    <div class="actions">
+      <button onclick="event.stopPropagation(); clearTerminal()">Clear</button>
+      <button id="termToggle" onclick="event.stopPropagation(); toggleTerminal()">&#x25b2;</button>
+    </div>
+  </div>
+  <pre class="terminal-body" id="termOutput"></pre>
+</div>
+
+<script>
+const SECTIONS = [
+  { id: 'repos',   label: 'Repos',    emoji: '\uD83D\uDCC2' },
+  { id: 'data',    label: 'Data',     emoji: '\uD83D\uDCCA' },
+  { id: 'build',   label: 'Build',    emoji: '\uD83D\uDEE0\uFE0F' },
+  { id: 'apps',    label: 'Apps',     emoji: '\uD83D\uDCF1' },
+  { id: 'flyers',  label: 'Flyers',   emoji: '\uD83C\uDFAA' },
+  { id: 'quality', label: 'Quality',  emoji: '\u2705' },
+];
+
+const OPTIONS = [
+  { id: 1,  section: 'repos',   emoji: '\uD83D\uDCE6', name: 'Clone all repos',      desc: 'Clone all GitHub repos for abourdim' },
+  { id: 2,  section: 'repos',   emoji: '\uD83D\uDD04', name: 'Pull all repos',        desc: 'Git pull on every cloned repo' },
+  { id: 3,  section: 'repos',   emoji: '\uD83E\uDE7A', name: 'Repo health check',     desc: 'Check dirty, missing index, unpushed commits' },
+  { id: 4,  section: 'repos',   emoji: '\uD83D\uDCDD', name: 'Fix READMEs',           desc: 'Scan and generate missing/short READMEs' },
+  { id: 5,  section: 'data',    emoji: '\uD83D\uDD04', name: 'Sync app data',         desc: 'Sync apps-data.json with repos' },
+  { id: 6,  section: 'data',    emoji: '\u2705',       name: 'Validate data',         desc: 'Check for missing fields, duplicates, orphans' },
+  { id: 7,  section: 'data',    emoji: '\uD83D\uDCE4', name: 'Export report',         desc: 'Export apps report to CSV' },
+  { id: 8,  section: 'build',   emoji: '\uD83D\uDD28', name: 'Build',                 desc: 'Run the full build pipeline' },
+  { id: 9,  section: 'build',   emoji: '\uD83D\uDDBC\uFE0F', name: 'Generate thumbnails',   desc: 'Regenerate app screenshots via Puppeteer' },
+  { id: 10, section: 'build',   emoji: '\uD83D\uDE80', name: 'Deploy',                desc: 'Full rebuild + git push to main' },
+  { id: 11, section: 'apps',    emoji: '\uD83D\uDCCB', name: 'List apps',             desc: 'List and filter all 67 apps' },
+  { id: 12, section: 'apps',    emoji: '\u270F\uFE0F', name: 'Edit app',              desc: 'Interactive app editor (terminal only)', terminal: true },
+  { id: 13, section: 'apps',    emoji: '\uD83D\uDCE6', name: 'Bulk edit',             desc: 'Bulk edit apps (terminal only)', terminal: true },
+  { id: 14, section: 'apps',    emoji: '\uD83D\uDCCA', name: 'Dashboard',             desc: 'Status summary, badges, categories, i18n' },
+  { id: 15, section: 'flyers',  emoji: '\uD83C\uDFAA', name: 'Event flyer',           desc: 'Generate an event flyer with QR code', form: true },
+  { id: 16, section: 'flyers',  emoji: '\uD83D\uDCD6', name: 'App catalog',           desc: 'Generate HTML catalog of all apps' },
+  { id: 17, section: 'flyers',  emoji: '\uD83D\uDCE6', name: 'Batch flyers',          desc: 'Generate one flyer per app (placeholders)' },
+  { id: 18, section: 'quality', emoji: '\uD83D\uDD17', name: 'Broken links',          desc: 'Check live URLs for all apps' },
+  { id: 19, section: 'quality', emoji: '\uD83C\uDF10', name: 'i18n coverage',         desc: 'Check EN/FR/AR translation coverage' },
+  { id: 20, section: 'quality', emoji: '\uD83D\uDD0D', name: 'Consistency check',     desc: 'Favicon, viewport, manifest, PWA, OG meta' },
+  { id: 21, section: 'quality', emoji: '\uD83C\uDFF7\uFE0F', name: 'Auto-tagger',           desc: 'Suggest tags from code analysis' },
+  { id: 22, section: 'quality', emoji: '\uD83C\uDFC6', name: 'Run all checks',        desc: 'Run all quality checks (18-21)' },
+];
+
+let currentSection = 'repos';
+let runningOption = null;
+let appsData = null;
+
+// ── Init ──
+async function init() {
+  renderTabs();
+  renderGrid();
+  await loadStatus();
+  await loadApps();
+}
+
+async function loadStatus() {
+  try {
+    const res = await fetch('/api/status');
+    const s = await res.json();
+    document.getElementById('subtitle').textContent = `${s.apps} apps \u00b7 ${s.repos} repos \u00b7 ${s.flyers} flyers`;
+    document.getElementById('statusBar').innerHTML = `
+      <div class="stat online"><div class="dot"></div> Server</div>
+      <div class="stat"><span class="num">${s.stable}</span> stable</div>
+      <div class="stat"><span class="num">${s.beta}</span> beta</div>
+      <div class="stat"><span class="num">${s.dev}</span> dev</div>
+      <div class="stat"><span class="num">${s.offline}</span> offline</div>
+    `;
+  } catch {
+    document.getElementById('subtitle').textContent = 'Server not connected';
+  }
+}
+
+async function loadApps() {
+  try {
+    const res = await fetch('/api/apps');
+    appsData = await res.json();
+    populateFlyerDropdown();
+  } catch {}
+}
+
+function populateFlyerDropdown() {
+  const sel = document.getElementById('flyerApp');
+  if (!appsData) return;
+  sel.innerHTML = '';
+  for (const a of appsData.apps || []) {
+    if (a.status === 'offline') continue;
+    const opt = document.createElement('option');
+    opt.value = a.name;
+    opt.textContent = `${a.emoji || ''} ${a.name}`;
+    sel.appendChild(opt);
+  }
+}
+
+// ── Tabs ──
+function renderTabs() {
+  const el = document.getElementById('tabs');
+  el.innerHTML = SECTIONS.map(s =>
+    `<div class="tab ${s.id === currentSection ? 'active' : ''}" onclick="switchTab('${s.id}')">${s.emoji} ${s.label}</div>`
+  ).join('');
+}
+
+function switchTab(id) {
+  currentSection = id;
+  renderTabs();
+  renderGrid();
+}
+
+// ── Grid ──
+function renderGrid() {
+  const el = document.getElementById('grid');
+  const items = OPTIONS.filter(o => o.section === currentSection);
+  el.innerHTML = items.map(o => {
+    const badgeClass = runningOption === o.id ? 'badge-running' : 'badge-idle';
+    const badgeText = runningOption === o.id ? 'running' : 'ready';
+    const disabled = runningOption !== null ? 'disabled' : '';
+    const btnLabel = o.terminal ? '\uD83D\uDCBB Terminal' : o.form ? '\uD83C\uDFA8 Open' : '\u25B6 Run';
+    const onclick = o.terminal
+      ? `showTerminalOnly(${o.id})`
+      : o.form
+        ? `openFlyerForm()`
+        : `runOption(${o.id})`;
+    return `<div class="card" id="card-${o.id}">
+      <div class="badge-status ${badgeClass}">${badgeText}</div>
+      <div class="emoji">${o.emoji}</div>
+      <div class="name">${o.name}</div>
+      <div class="desc">${o.desc}</div>
+      <button class="run-btn" ${disabled} onclick="event.stopPropagation(); ${onclick}">${btnLabel}</button>
+    </div>`;
+  }).join('');
+}
+
+// ── Terminal ──
+function toggleTerminal() {
+  const t = document.getElementById('terminal');
+  t.classList.toggle('collapsed');
+  document.getElementById('termToggle').textContent = t.classList.contains('collapsed') ? '\u25B2' : '\u25BC';
+}
+
+function showTerminal() {
+  document.getElementById('terminal').classList.remove('collapsed');
+  document.getElementById('termToggle').textContent = '\u25BC';
+}
+
+function clearTerminal() {
+  document.getElementById('termOutput').textContent = '';
+}
+
+function appendTerminal(text) {
+  const el = document.getElementById('termOutput');
+  el.textContent += text;
+  el.scrollTop = el.scrollHeight;
+}
+
+// ── Run option ──
+async function runOption(id) {
+  if (runningOption !== null) return;
+  runningOption = id;
+  renderGrid();
+  clearTerminal();
+  showTerminal();
+  appendTerminal(`\u25B6 Running option ${id}...\n\n`);
+
+  const badge = document.querySelector(`#card-${id} .badge-status`);
+  if (badge) { badge.className = 'badge-status badge-running'; badge.textContent = 'running'; }
+
+  try {
+    const resp = await fetch('/api/run', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ option: id }),
+    });
+
+    if (!resp.ok) {
+      const err = await resp.json();
+      appendTerminal(`\u274C Error: ${err.error}\n`);
+      if (badge) { badge.className = 'badge-status badge-error'; badge.textContent = 'error'; }
+      runningOption = null;
+      renderGrid();
+      return;
+    }
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      appendTerminal(decoder.decode(value, { stream: true }));
+    }
+    if (badge) { badge.className = 'badge-status badge-done'; badge.textContent = 'done'; }
+  } catch (e) {
+    appendTerminal(`\u274C ${e.message}\n`);
+    if (badge) { badge.className = 'badge-status badge-error'; badge.textContent = 'error'; }
+  }
+
+  runningOption = null;
+  renderGrid();
+  // Refresh status
+  loadStatus();
+}
+
+function showTerminalOnly(id) {
+  clearTerminal();
+  showTerminal();
+  appendTerminal(`\u2139\uFE0F This option requires a terminal.\n\nRun:  ./launcher.sh ${id}\n`);
+}
+
+// ── Flyer form ──
+function openFlyerForm() {
+  document.getElementById('flyerModal').classList.add('active');
+  document.getElementById('flyerResult').style.display = 'none';
+}
+
+function closeModal() {
+  document.getElementById('flyerModal').classList.remove('active');
+}
+
+// Theme picker
+document.getElementById('themePicker').addEventListener('click', e => {
+  const swatch = e.target.closest('.theme-swatch');
+  if (!swatch) return;
+  document.querySelectorAll('.theme-swatch').forEach(s => s.classList.remove('active'));
+  swatch.classList.add('active');
+});
+
+async function generateFlyer() {
+  const app = document.getElementById('flyerApp').value;
+  const theme = document.querySelector('.theme-swatch.active')?.dataset.theme || 'auto';
+  const date = document.getElementById('flyerDate').value;
+  const time = document.getElementById('flyerTime').value;
+  const lieu = document.getElementById('flyerLieu').value;
+  const features = [
+    document.getElementById('feat1').value,
+    document.getElementById('feat2').value,
+    document.getElementById('feat3').value,
+    document.getElementById('feat4').value,
+  ].filter(f => f);
+
+  const body = { app_name: app, theme, date, time, lieu, features };
+
+  try {
+    const resp = await fetch('/api/flyer/event', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    const result = await resp.json();
+
+    if (result.error) {
+      alert(result.error);
+      return;
+    }
+
+    const resEl = document.getElementById('flyerResult');
+    resEl.style.display = 'block';
+    document.getElementById('flyerPreview').src = result.preview;
+    document.getElementById('fbText').value = result.facebook || '';
+    loadStatus(); // refresh flyer count
+  } catch (e) {
+    alert('Generation failed: ' + e.message);
+  }
+}
+
+// ── Keyboard shortcut ──
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeModal();
+  }
+});
+
+// ── Start ──
+init();
+</script>
+</body>
+</html>

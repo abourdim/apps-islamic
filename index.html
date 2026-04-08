@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="islamic" data-lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Workshop-Diy • Islamic Apps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=El+Messiri:wght@400;500;600;700&family=Baloo+2:wght@400;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700&family=Fredoka:wght@400;500;600;700&family=Scheherazade+New:wght@400;700&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Particle canvas for animated backgrounds -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- Confetti canvas (triggered on actions) -->
+  <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+  <div class="app kids-mode">
+    <div class="rows-container">
+
+      <!-- ===== HEADER ===== -->
+      <header class="header">
+        <div class="bismillah">بسم الله الرحمن الرحيم</div>
+        <div class="brand">
+          <img class="site-logo" id="site-logo" src="./logo.svg" alt="Workshop-Diy logo" />
+          <div class="brand-text">
+            <h1 class="site-title">Workshop-Diy Islamic</h1>
+            <div class="subtitle"><span data-i18n="subtitle"></span> <span class="version">v1.0</span></div>
+          </div>
+        </div>
+
+        <div class="header-controls">
+          <!-- Language Switcher -->
+          <div class="lang-switcher" role="radiogroup" aria-label="Language">
+            <button class="lang-btn active" data-lang="en" title="English"><img src="https://flagcdn.com/w40/gb.png" alt="EN" width="20" height="15"></button>
+            <button class="lang-btn" data-lang="fr" title="Français"><img src="https://flagcdn.com/w40/fr.png" alt="FR" width="20" height="15"></button>
+            <button class="lang-btn" data-lang="ar" title="العربية"><img src="https://flagcdn.com/w40/dz.png" alt="AR" width="20" height="15"></button>
+          </div>
+
+          <!-- Theme Switcher -->
+          <div class="theme-switcher" role="radiogroup" aria-label="Theme">
+            <button class="theme-btn" data-theme="dark" title="Dark">🌙</button>
+            <button class="theme-btn" data-theme="light" title="Light">🌞</button>
+            <button class="theme-btn" data-theme="ocean" title="Ocean">🌊</button>
+            <button class="theme-btn" data-theme="space" title="Space">🚀</button>
+            <button class="theme-btn" data-theme="electric" title="Electric">⚡</button>
+            <button class="theme-btn" data-theme="forest" title="Forest">🌲</button>
+            <button class="theme-btn" data-theme="lava" title="Lava">🔥</button>
+            <button class="theme-btn active" data-theme="islamic" title="Medina">🕌</button>
+            <button class="theme-btn" data-theme="alhambra" title="Alhambra">🏰</button>
+            <button class="theme-btn" data-theme="iznik" title="Iznik">🔷</button>
+            <button class="theme-btn" data-theme="zellige" title="Zellige">🧩</button>
+            <button class="theme-btn" data-theme="arabesque" title="Arabesque">🌿</button>
+          </div>
+
+          <!-- Sound Toggle -->
+          <button class="icon-btn sound-toggle" id="sound-toggle" title="Toggle sounds" aria-label="Toggle sounds">
+            🔊
+          </button>
+        </div>
+      </header>
+
+      <!-- ===== GREETING ===== -->
+      <div class="greeting-bar" id="greeting-bar"></div>
+
+      <!-- ===== STATS BAR ===== -->
+      <div class="stats-bar" id="stats-bar"></div>
+
+      <!-- ===== FILTER BAR ===== -->
+      <div class="mode-selector-container">
+        <div class="mode-selector" role="tablist" aria-label="Filters">
+          <button class="mode-btn active" data-filter="" type="button">
+            <span class="mode-icon">⭐</span> <span data-i18n="filter_all"></span>
+            <span class="filter-count" data-count-filter=""></span>
+          </button>
+          <button class="mode-btn" data-filter="arabic" type="button">
+            <span class="mode-icon">🕌</span> <span data-i18n="filter_arabic"></span>
+            <span class="filter-count" data-count-filter="arabic"></span>
+          </button>
+          <button class="mode-btn" data-filter="learning" type="button">
+            <span class="mode-icon">📚</span> <span data-i18n="filter_learning"></span>
+            <span class="filter-count" data-count-filter="learning"></span>
+          </button>
+          <button class="mode-btn" data-filter="tools" type="button">
+            <span class="mode-icon">🛠️</span> <span data-i18n="filter_tools"></span>
+            <span class="filter-count" data-count-filter="tools"></span>
+          </button>
+          <button class="mode-btn" data-filter="ai" type="button">
+            <span class="mode-icon">🧠</span> <span data-i18n="filter_ai"></span>
+            <span class="filter-count" data-count-filter="ai"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ===== SEARCH + CONTROLS ===== -->
+      <div class="search-row">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input id="q" type="text" data-i18n-placeholder="search_placeholder" autocomplete="off" />
+          <button id="clear-search" class="clear-btn" style="display:none" title="Clear">✕</button>
+        </div>
+        <button id="shuffle-btn" class="action-btn" title="Surprise me!">🔀 <span data-i18n="shuffle"></span></button>
+        <div class="status-toggles" role="group" aria-label="Status filter">
+          <button class="st-tog active" data-status="" title="All">⭐</button>
+          <button class="st-tog" data-status="stable" title="Stable">✅</button>
+          <button class="st-tog" data-status="beta" title="Beta">🧪</button>
+          <button class="st-tog" data-status="dev" title="Dev">🔧</button>
+          <button class="st-tog" data-status="offline" title="Offline">🚫</button>
+        </div>
+        <div class="view-toggle">
+          <button class="view-btn active" data-view="grid" title="Grid view">▦</button>
+          <button class="view-btn" data-view="list" title="List view">☰</button>
+        </div>
+      </div>
+
+      <!-- ===== GRID ===== -->
+      <div class="tab-pages">
+        <div class="tab-page active">
+          <div id="grid" class="kids-grid" aria-live="polite"></div>
+          <p id="empty" class="hint" style="display:none;" data-i18n="no_results"></p>
+        </div>
+      </div>
+
+      <!-- ===== JOKE ===== -->
+      <div class="joke-bar" id="joke-bar"></div>
+
+      <!-- ===== EXPLORER COUNTER ===== -->
+      <div class="explorer-bar" id="explorer-bar"></div>
+
+      <!-- ===== FOOTER ===== -->
+      <footer class="kids-footer">
+        <span data-i18n="footer"></span>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Scroll to top -->
+  <button id="scroll-top" class="scroll-top-btn" title="Back to top" aria-label="Back to top">🚀</button>
+
+  <script src="./app.js"></script>
+</body>
+</html>

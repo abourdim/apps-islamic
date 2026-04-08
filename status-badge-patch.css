@@ -1,0 +1,40 @@
+/* ============================================================
+   STATUS BADGES — add this to the end of styles.css
+   ============================================================ */
+
+/* Status badge (positioned opposite side of card-badge) */
+.status-badge {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: #fff;
+  z-index: 2;
+  pointer-events: none;
+  animation: badgePop 0.4s ease-out both;
+}
+
+[dir="rtl"] .status-badge { right: 12px; left: auto; }
+
+/* When both card-badge AND status-badge exist, stack them */
+.card-badge ~ .status-badge { top: 36px; }
+
+/* Shift fav-btn down when status-badge is present */
+.status-badge ~ .fav-btn { top: 36px; }
+.card-badge ~ .status-badge ~ .fav-btn { top: 60px; }
+
+.status-badge.beta {
+  background: #f59e0b;
+  color: #1a1a1a;
+}
+.status-badge.dev {
+  background: #8b5cf6;
+}
+.status-badge.offline {
+  background: #ef4444;
+}
