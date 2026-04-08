@@ -22,7 +22,8 @@
         "fr": "Al Dawah Fi Al Qarn — application éducative islamique trilingue.",
         "ar": "الدعوة الإسلامية في القرن الحالي"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-fasad-al-siyasi",
@@ -44,7 +45,8 @@
         "fr": "Al Fasad Al Siyasi — application éducative islamique trilingue.",
         "ar": "الفساد السياسي"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-ghazali-library",
@@ -65,7 +67,8 @@
         "fr": "Al Ghazali Library — application éducative islamique trilingue.",
         "ar": "مكتبة الغزالي التفاعلية"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-ghazw-al-thaqafi",
@@ -87,7 +90,8 @@
         "fr": "Al Ghazw Al Thaqafi — application éducative islamique trilingue.",
         "ar": "الغزو الثقافي يمتد في فراغنا"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-ghirbal",
@@ -109,7 +113,8 @@
         "fr": "Al Ghirbal — application éducative islamique trilingue.",
         "ar": "الغربال"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-hayat-al-ula",
@@ -131,7 +136,8 @@
         "fr": "Al Hayat Al Ula — application éducative islamique trilingue.",
         "ar": "الحياة الأولى"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-islam-al-muftara-alayh",
@@ -153,7 +159,8 @@
         "fr": "Al Islam Al Muftara Alayh — application éducative islamique trilingue.",
         "ar": "الإسلام المفترى عليه"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-islam-fi-wajh-al-zahf",
@@ -175,7 +182,8 @@
         "fr": "Al Islam Fi Wajh Al Zahf — application éducative islamique trilingue.",
         "ar": "الإسلام في وجه الزحف الأحمر"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-islam-wa-qanun",
@@ -197,7 +205,8 @@
         "fr": "Al Islam Wa Qanun — application éducative islamique trilingue.",
         "ar": "الإسلام وقانون الأحوال الشخصية"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-islam-wal-awda-al-iqtisadiyah",
@@ -219,7 +228,8 @@
         "fr": "Al Islam Wal Awda Al Iqtisadiyah — application éducative islamique trilingue.",
         "ar": "الإسلام والأوضاع الاقتصادية"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-islam-wal-istibdad",
@@ -241,7 +251,8 @@
         "fr": "Al Islam Wal Istibdad — application éducative islamique trilingue.",
         "ar": "الإسلام والاستبداد السياسي"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-islam-wal-manahij",
@@ -263,7 +274,8 @@
         "fr": "Al Islam Wal Manahij — application éducative islamique trilingue.",
         "ar": "الإسلام والمناهج الاشتراكية"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-istimar",
@@ -285,7 +297,8 @@
         "fr": "Al Istimar — application éducative islamique trilingue.",
         "ar": "الاستعمار أحقاد وأطماع"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-janib-al-atifi",
@@ -307,7 +320,8 @@
         "fr": "Al Janib Al Atifi — application éducative islamique trilingue.",
         "ar": "الجانب العاطفي من الإسلام"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-mahawir-al-khamsah",
@@ -329,7 +343,8 @@
         "fr": "Al Mahawir Al Khamsah — application éducative islamique trilingue.",
         "ar": "المحاور الخمسة للقرآن الكريم"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-miraat",
@@ -351,7 +366,8 @@
         "fr": "Al Miraat — application éducative islamique trilingue.",
         "ar": "المرآة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-saaiqa",
@@ -373,7 +389,8 @@
         "fr": "Al Saaiqa — application éducative islamique trilingue.",
         "ar": "الصاعقة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-sunnah-al-nabawiyah",
@@ -395,7 +412,8 @@
         "fr": "Al Sunnah Al Nabawiyah — application éducative islamique trilingue.",
         "ar": "السنة النبوية بين أهل الفقه وأهل الحديث"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "al-taassub-wal-tasamuh",
@@ -417,7 +435,8 @@
         "fr": "Al Taassub Wal Tasamuh — application éducative islamique trilingue.",
         "ar": "التعصب والتسامح"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "amthal",
@@ -458,7 +477,8 @@
         "fr": "Aqidat Al Muslim — application éducative islamique trilingue.",
         "ar": "عقيدة المسلم"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "ayqidh-taqatak",
@@ -480,7 +500,8 @@
         "fr": "Ayqidh Taqatak — application éducative islamique trilingue.",
         "ar": "أيقظ طاقتك"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "builders-of-light",
@@ -529,7 +550,8 @@
         "fr": "Difaa Al Aqidah — application éducative islamique trilingue.",
         "ar": "دفاع عن العقيدة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "dustur-al-wahdah",
@@ -551,7 +573,8 @@
         "fr": "Dustur Al Wahdah — application éducative islamique trilingue.",
         "ar": "دستور الوحدة الثقافية بين المسلمين"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "eid",
@@ -595,7 +618,8 @@
         "fr": "Fan Al Dhikr — application éducative islamique trilingue.",
         "ar": "فن الذكر والدعاء"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "fi-mawkib-al-dawa",
@@ -617,7 +641,8 @@
         "fr": "Fi Mawkib Al Dawa — application éducative islamique trilingue.",
         "ar": "في موكب الدعوة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "fiqh-al-sirah",
@@ -639,7 +664,8 @@
         "fr": "Fiqh Al Sirah — application éducative islamique trilingue.",
         "ar": "فقه السيرة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "golden-age",
@@ -730,7 +756,8 @@
         "fr": "Haqiqat Al Qawmiyah — application éducative islamique trilingue.",
         "ar": "حقيقة القومية العربية"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "hasad-al-ghurur",
@@ -752,7 +779,8 @@
         "fr": "Hasad Al Ghurur — application éducative islamique trilingue.",
         "ar": "حصاد الغرور"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "humum-daiya",
@@ -774,7 +802,8 @@
         "fr": "Humum Daiya — application éducative islamique trilingue.",
         "ar": "هموم داعية"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "huquq-al-insan",
@@ -796,7 +825,8 @@
         "fr": "Huquq Al Insan — application éducative islamique trilingue.",
         "ar": "حقوق الإنسان"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "iyadat-al-ummah",
@@ -818,7 +848,8 @@
         "fr": "Iyadat Al Ummah — application éducative islamique trilingue.",
         "ar": "عيادة الأمة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "jaddid-hayatak",
@@ -840,7 +871,8 @@
         "fr": "Jaddid Hayatak — application éducative islamique trilingue.",
         "ar": "جدد حياتك"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "jihad-al-dawah",
@@ -862,7 +894,8 @@
         "fr": "Jihad Al Dawah — application éducative islamique trilingue.",
         "ar": "جهاد الدعوة بين عجز الداخل وكيد الخارج"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "kayfa-nafham",
@@ -884,7 +917,8 @@
         "fr": "Kayfa Nafham — application éducative islamique trilingue.",
         "ar": "كيف نفهم الإسلام"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "kayfa-nataamal-maa-al-quran",
@@ -906,7 +940,8 @@
         "fr": "Kayfa Nataamal Maa Al Quran — application éducative islamique trilingue.",
         "ar": "كيف نتعامل مع القرآن"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "khuluq-al-muslim",
@@ -928,7 +963,8 @@
         "fr": "Khuluq Al Muslim — application éducative islamique trilingue.",
         "ar": "خلق المسلم"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "khutab-al-ghazali",
@@ -950,7 +986,8 @@
         "fr": "Khutab Al Ghazali — application éducative islamique trilingue.",
         "ar": "خطب الغزالي"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "kunuz-min-al-sunnah",
@@ -972,7 +1009,8 @@
         "fr": "Kunuz Min Al Sunnah — application éducative islamique trilingue.",
         "ar": "كنوز من السنة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "luminaries-of-islam",
@@ -1025,7 +1063,8 @@
         "fr": "Maa Allah — application éducative islamique trilingue.",
         "ar": "مع الله"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "marakah-al-mushaf",
@@ -1047,7 +1086,8 @@
         "fr": "Marakah Al Mushaf — application éducative islamique trilingue.",
         "ar": "معركة المصحف"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "miat-sual",
@@ -1069,7 +1109,8 @@
         "fr": "Miat Sual — application éducative islamique trilingue.",
         "ar": "مائة سؤال عن الإسلام"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "min-huna-nalam",
@@ -1091,7 +1132,8 @@
         "fr": "Min Huna Nalam — application éducative islamique trilingue.",
         "ar": "من هنا نعلم"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "mushkilat",
@@ -1112,7 +1154,8 @@
         "fr": "Mushkilat — application Workshop-DIY.",
         "ar": "مشكلات في طريق الحياة الإسلامية"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "nahwa-tafsir-mawdui",
@@ -1134,7 +1177,8 @@
         "fr": "Nahwa Tafsir Mawdui — application éducative islamique trilingue.",
         "ar": "نحو تفسير موضوعي لسور القرآن"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "nazarat-fi-al-quran",
@@ -1156,7 +1200,8 @@
         "fr": "Nazarat Fi Al Quran — application éducative islamique trilingue.",
         "ar": "نظرات في القرآن"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "nusuk",
@@ -1246,7 +1291,8 @@
         "fr": "Qadaya Al Marah — application éducative islamique trilingue.",
         "ar": "قضايا المرأة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "qadhaaif-al-haqq",
@@ -1268,7 +1314,8 @@
         "fr": "Qadhaaif Al Haqq — application éducative islamique trilingue.",
         "ar": "قذائف الحق"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "rakaiz-al-iman",
@@ -1290,7 +1337,8 @@
         "fr": "Rakaiz Al Iman — application éducative islamique trilingue.",
         "ar": "ركائز الإيمان بين العقل والقلب"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "ramadan-wal-siyam",
@@ -1312,7 +1360,8 @@
         "fr": "Ramadan Wal Siyam — application éducative islamique trilingue.",
         "ar": "رمضان والصيام"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "rihlati-fikriyah",
@@ -1333,7 +1382,8 @@
         "fr": "Rihlati Fikriyah — application éducative islamique trilingue.",
         "ar": "Rihlati Fikriyah — تطبيق تعليمي إسلامي تفاعلي ثلاثي اللغات."
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "messiri"
     },
     {
       "name": "salat-times",
@@ -1379,7 +1429,8 @@
         "fr": "Sayhah Tahdhir — application éducative islamique trilingue.",
         "ar": "صيحة تحذير من دعاة التنصير"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "shahid-ala-al-asr",
@@ -1401,7 +1452,8 @@
         "fr": "Shahid Ala Al Asr — application éducative islamique trilingue.",
         "ar": "شاهد على العصر"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "taamulat",
@@ -1422,7 +1474,8 @@
         "fr": "Taamulat — application Workshop-DIY.",
         "ar": "تأملات في الدين والحياة"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "tarbiyat-al-awlad",
@@ -1444,7 +1497,8 @@
         "fr": "منصة تعليمية تفاعلية ثلاثية اللغات (عربي / English / Français) مستلهمة من كتاب «تربية الأولاد في الإسلام» للشيخ عبد الله",
         "ar": "﴿ وَالَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّق"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ulwan"
     },
     {
       "name": "tesbih",
@@ -1512,7 +1566,8 @@
         "fr": "Zalam Min Al Gharb — application éducative islamique trilingue.",
         "ar": "ظلام من الغرب"
       },
-      "visibility": "public"
+      "visibility": "public",
+      "library": "ghazali"
     }
   ]
 }
