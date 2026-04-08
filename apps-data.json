@@ -3,6 +3,52 @@
   "user": "abourdim",
   "apps": [
     {
+      "name": "al-dawah-fi-al-qarn",
+      "emoji": "📢",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📢 Islamic Dawah This Century — الدعوة الإسلامية في القرن الحالي",
+        "fr": "Al Dawah Fi Al Qarn — application éducative islamique trilingue.",
+        "ar": "الدعوة الإسلامية في القرن الحالي"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-fasad-al-siyasi",
+      "emoji": "🏛",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🏛️ Political Corruption — الفساد السياسي",
+        "fr": "Al Fasad Al Siyasi — application éducative islamique trilingue.",
+        "ar": "الفساد السياسي"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
       "name": "al-ghazali-library",
       "emoji": "📚",
       "categories": [
@@ -25,6 +71,374 @@
       "library": "ghazali"
     },
     {
+      "name": "al-ghazw-al-thaqafi",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "الغزو الثقافي يمتد في فراغنا — Cultural Invasion Spreads into Our Void",
+        "fr": "Al Ghazw Al Thaqafi — application éducative islamique trilingue.",
+        "ar": "الغزو الثقافي يمتد في فراغنا"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-ghirbal",
+      "emoji": "⛔",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "⛔ The Sieve — الغربال",
+        "fr": "Al Ghirbal — application éducative islamique trilingue.",
+        "ar": "الغربال"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-hayat-al-ula",
+      "emoji": "🌅",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🌅 The First Life — الحياة الأولى",
+        "fr": "Al Hayat Al Ula — application éducative islamique trilingue.",
+        "ar": "الحياة الأولى"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-islam-al-muftara-alayh",
+      "emoji": "⚖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "⚖️ Islam Falsely Accused — الإسلام المفترى عليه",
+        "fr": "Al Islam Al Muftara Alayh — application éducative islamique trilingue.",
+        "ar": "الإسلام المفترى عليه"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-islam-fi-wajh-al-zahf",
+      "emoji": "🔴",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🔴 Islam Facing the Red Tide — الإسلام في وجه الزحف الأحمر",
+        "fr": "Al Islam Fi Wajh Al Zahf — application éducative islamique trilingue.",
+        "ar": "الإسلام في وجه الزحف الأحمر"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-islam-wa-qanun",
+      "emoji": "⚖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "⚖️ Islam & Personal Status Law — الإسلام وقانون الأحوال الشخصية",
+        "fr": "Al Islam Wa Qanun — application éducative islamique trilingue.",
+        "ar": "الإسلام وقانون الأحوال الشخصية"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-islam-wal-awda-al-iqtisadiyah",
+      "emoji": "💰",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "💰 Islam and Economic Affairs — الإسلام والأوضاع الاقتصادية",
+        "fr": "Al Islam Wal Awda Al Iqtisadiyah — application éducative islamique trilingue.",
+        "ar": "الإسلام والأوضاع الاقتصادية"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-islam-wal-istibdad",
+      "emoji": "⚖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "⚖️ Islam & Political Tyranny — الإسلام والاستبداد السياسي",
+        "fr": "Al Islam Wal Istibdad — application éducative islamique trilingue.",
+        "ar": "الإسلام والاستبداد السياسي"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-islam-wal-manahij",
+      "emoji": "🟠",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🟠 Islam and Socialist Systems — الإسلام والمناهج الاشتراكية",
+        "fr": "Al Islam Wal Manahij — application éducative islamique trilingue.",
+        "ar": "الإسلام والمناهج الاشتراكية"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-istimar",
+      "emoji": "🏴",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🏴 Colonialism: Grudges & Greed — الاستعمار أحقاد وأطماع",
+        "fr": "Al Istimar — application éducative islamique trilingue.",
+        "ar": "الاستعمار أحقاد وأطماع"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-janib-al-atifi",
+      "emoji": "💗",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "💗 The Emotional Side of Islam — الجانب العاطفي من الإسلام",
+        "fr": "Al Janib Al Atifi — application éducative islamique trilingue.",
+        "ar": "الجانب العاطفي من الإسلام"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-mahawir-al-khamsah",
+      "emoji": "🔥",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🔥 The Five Axes of the Quran — المحاور الخمسة للقرآن الكريم",
+        "fr": "Al Mahawir Al Khamsah — application éducative islamique trilingue.",
+        "ar": "المحاور الخمسة للقرآن الكريم"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-miraat",
+      "emoji": "🪞",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🪞 The Mirror — المرآة",
+        "fr": "Al Miraat — application éducative islamique trilingue.",
+        "ar": "المرآة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-saaiqa",
+      "emoji": "⛈",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "⛈️ The Thunderbolt — الصاعقة",
+        "fr": "Al Saaiqa — application éducative islamique trilingue.",
+        "ar": "الصاعقة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-sunnah-al-nabawiyah",
+      "emoji": "📜",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📜 Prophetic Sunnah — السنة النبوية بين أهل الفقه وأهل الحديث",
+        "fr": "Al Sunnah Al Nabawiyah — application éducative islamique trilingue.",
+        "ar": "السنة النبوية بين أهل الفقه وأهل الحديث"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "al-taassub-wal-tasamuh",
+      "emoji": "🕊",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🕊️ Fanaticism & Tolerance — التعصب والتسامح",
+        "fr": "Al Taassub Wal Tasamuh — application éducative islamique trilingue.",
+        "ar": "التعصب والتسامح"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
       "name": "amthal",
       "emoji": "🕌",
       "categories": [
@@ -42,6 +456,52 @@
         "ar": "مجموعة أمثال وحكم عربية — تطبيق تفاعلي ثلاثي اللغات."
       },
       "visibility": "public"
+    },
+    {
+      "name": "aqidat-al-muslim",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🕌 عقيدة المسلم — The Muslim's Creed",
+        "fr": "Aqidat Al Muslim — application éducative islamique trilingue.",
+        "ar": "عقيدة المسلم"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "ayqidh-taqatak",
+      "emoji": "⚡",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "⚡ Awaken Your Energy — أيقظ طاقتك",
+        "fr": "Ayqidh Taqatak — application éducative islamique trilingue.",
+        "ar": "أيقظ طاقتك"
+      },
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "builders-of-light",
@@ -71,6 +531,52 @@
       "visibility": "public"
     },
     {
+      "name": "difaa-al-aqidah",
+      "emoji": "🛡",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🛡️ Defense of Creed — دفاع عن العقيدة",
+        "fr": "Difaa Al Aqidah — application éducative islamique trilingue.",
+        "ar": "دفاع عن العقيدة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "dustur-al-wahdah",
+      "emoji": "🤝",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🤝 Charter of Cultural Unity — دستور الوحدة الثقافية بين المسلمين",
+        "fr": "Dustur Al Wahdah — application éducative islamique trilingue.",
+        "ar": "دستور الوحدة الثقافية بين المسلمين"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
       "name": "eid",
       "emoji": "🌙",
       "categories": [
@@ -91,6 +597,75 @@
         "fr": "Application de célébration de l'Aïd pour enfants.",
         "ar": "تطبيق احتفالات العيد للأطفال."
       }
+    },
+    {
+      "name": "fan-al-dhikr",
+      "emoji": "🤲",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🤲 The Art of Dhikr & Dua — فن الذكر والدعاء",
+        "fr": "Fan Al Dhikr — application éducative islamique trilingue.",
+        "ar": "فن الذكر والدعاء"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "fi-mawkib-al-dawa",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "في موكب الدعوة — In the Procession of Dawah",
+        "fr": "Fi Mawkib Al Dawa — application éducative islamique trilingue.",
+        "ar": "في موكب الدعوة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "fiqh-al-sirah",
+      "emoji": "📜",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📜 فقه السيرة — Fiqh Al-Sirah",
+        "fr": "Fiqh Al Sirah — application éducative islamique trilingue.",
+        "ar": "فقه السيرة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "golden-age",
@@ -162,6 +737,282 @@
       "visibility": "public"
     },
     {
+      "name": "haqiqat-al-qawmiyah",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "حقيقة القومية العربية — Arab Nationalism: Truth & Myth",
+        "fr": "Haqiqat Al Qawmiyah — application éducative islamique trilingue.",
+        "ar": "حقيقة القومية العربية"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "hasad-al-ghurur",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "حصاد الغرور — The Harvest of Arrogance — La Moisson de l'Orgueil",
+        "fr": "Hasad Al Ghurur — application éducative islamique trilingue.",
+        "ar": "حصاد الغرور"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "humum-daiya",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "هموم داعية — Concerns of a Preacher",
+        "fr": "Humum Daiya — application éducative islamique trilingue.",
+        "ar": "هموم داعية"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "huquq-al-insan",
+      "emoji": "⚖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "⚖️ Human Rights — حقوق الإنسان",
+        "fr": "Huquq Al Insan — application éducative islamique trilingue.",
+        "ar": "حقوق الإنسان"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "iyadat-al-ummah",
+      "emoji": "🩺",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🩺 The Ummah Clinic — عيادة الأمة",
+        "fr": "Iyadat Al Ummah — application éducative islamique trilingue.",
+        "ar": "عيادة الأمة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "jaddid-hayatak",
+      "emoji": "🌅",
+      "categories": [
+        "learning"
+      ],
+      "badge": "dev",
+      "status": "beta",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🌅 Renew Your Life — جدد حياتك",
+        "fr": "Jaddid Hayatak — application éducative islamique trilingue.",
+        "ar": "جدد حياتك"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "jihad-al-dawah",
+      "emoji": "🌿",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🌿 Jihad of Dawah — جهاد الدعوة بين عجز الداخل وكيد الخارج",
+        "fr": "Jihad Al Dawah — application éducative islamique trilingue.",
+        "ar": "جهاد الدعوة بين عجز الداخل وكيد الخارج"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "kayfa-nafham",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "كيف نفهم الإسلام — How We Understand Islam",
+        "fr": "Kayfa Nafham — application éducative islamique trilingue.",
+        "ar": "كيف نفهم الإسلام"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "kayfa-nataamal-maa-al-quran",
+      "emoji": "📖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📖 How to Deal with the Quran — كيف نتعامل مع القرآن",
+        "fr": "Kayfa Nataamal Maa Al Quran — application éducative islamique trilingue.",
+        "ar": "كيف نتعامل مع القرآن"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "khuluq-al-muslim",
+      "emoji": "🌟",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🌟 خلق المسلم — The Muslim's Character",
+        "fr": "Khuluq Al Muslim — application éducative islamique trilingue.",
+        "ar": "خلق المسلم"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "khutab-al-ghazali",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "خطب الغزالي — Ghazali's Sermons",
+        "fr": "Khutab Al Ghazali — application éducative islamique trilingue.",
+        "ar": "خطب الغزالي"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "kunuz-min-al-sunnah",
+      "emoji": "✨",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "✨ Treasures from the Sunnah — كنوز من السنة",
+        "fr": "Kunuz Min Al Sunnah — application éducative islamique trilingue.",
+        "ar": "كنوز من السنة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
       "name": "luminaries-of-islam",
       "emoji": "🌟",
       "categories": [
@@ -191,6 +1042,166 @@
         "ar": "تطبيق تفاعلي ثلاثي اللغات عن 12 عالماً مسلماً من العصر الذهبي الإسلامي."
       },
       "visibility": "public"
+    },
+    {
+      "name": "maa-allah",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🕌 With God — مع الله",
+        "fr": "Maa Allah — application éducative islamique trilingue.",
+        "ar": "مع الله"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "marakah-al-mushaf",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "معركة المصحف — Battle of the Quran",
+        "fr": "Marakah Al Mushaf — application éducative islamique trilingue.",
+        "ar": "معركة المصحف"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "miat-sual",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "مائة سؤال عن الإسلام — 100 Questions About Islam",
+        "fr": "Miat Sual — application éducative islamique trilingue.",
+        "ar": "مائة سؤال عن الإسلام"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "min-huna-nalam",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "من هنا نعلم — This Is Where We Learn",
+        "fr": "Min Huna Nalam — application éducative islamique trilingue.",
+        "ar": "من هنا نعلم"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "mushkilat",
+      "emoji": "📖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "PWA",
+        "developer-tool",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📖 مشكلات في طريق الحياة الإسلامية — Problems on the Islamic Path",
+        "fr": "Mushkilat — application Workshop-DIY.",
+        "ar": "مشكلات في طريق الحياة الإسلامية"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "nahwa-tafsir-mawdui",
+      "emoji": "🌊",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🌊 Toward Thematic Quran Interpretation — نحو تفسير موضوعي لسور القرآن",
+        "fr": "Nahwa Tafsir Mawdui — application éducative islamique trilingue.",
+        "ar": "نحو تفسير موضوعي لسور القرآن"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "nazarat-fi-al-quran",
+      "emoji": "📖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📖 Insights into the Quran — نظرات في القرآن",
+        "fr": "Nazarat Fi Al Quran — application éducative islamique trilingue.",
+        "ar": "نظرات في القرآن"
+      },
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "nusuk",
@@ -261,6 +1272,98 @@
       }
     },
     {
+      "name": "qadaya-al-marah",
+      "emoji": "🌹",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🌹 Women's Issues — قضايا المرأة",
+        "fr": "Qadaya Al Marah — application éducative islamique trilingue.",
+        "ar": "قضايا المرأة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "qadhaaif-al-haqq",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "قذائف الحق — Missiles of Truth",
+        "fr": "Qadhaaif Al Haqq — application éducative islamique trilingue.",
+        "ar": "قذائف الحق"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "rakaiz-al-iman",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "Pillars of Faith — ركائز الإيمان بين العقل والقلب",
+        "fr": "Rakaiz Al Iman — application éducative islamique trilingue.",
+        "ar": "ركائز الإيمان بين العقل والقلب"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "ramadan-wal-siyam",
+      "emoji": "📖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📖 رمضان والصيام — Ramadan and Fasting",
+        "fr": "Ramadan Wal Siyam — application éducative islamique trilingue.",
+        "ar": "رمضان والصيام"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
       "name": "rihlati-fikriyah",
       "emoji": "🕌",
       "categories": [
@@ -305,6 +1408,74 @@
         "ar": "تطبيق ويب لمواقيت الصلاة الإسلامية في ملف واحد مع دعم فانوس الأذان micro:bit V2."
       },
       "visibility": "public"
+    },
+    {
+      "name": "sayhah-tahdhir",
+      "emoji": "📖",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📖 صيحة تحذير من دعاة التنصير — Warning Against Missionaries",
+        "fr": "Sayhah Tahdhir — application éducative islamique trilingue.",
+        "ar": "صيحة تحذير من دعاة التنصير"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "shahid-ala-al-asr",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "شاهد على العصر — Ghazali: Witness of the Era",
+        "fr": "Shahid Ala Al Asr — application éducative islamique trilingue.",
+        "ar": "شاهد على العصر"
+      },
+      "visibility": "public",
+      "library": "ghazali"
+    },
+    {
+      "name": "taamulat",
+      "emoji": "🌿",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "PWA",
+        "developer-tool",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🌿 Reflections on Religion & Life — تأملات في الدين والحياة",
+        "fr": "Taamulat — application Workshop-DIY.",
+        "ar": "تأملات في الدين والحياة"
+      },
+      "visibility": "public",
+      "library": "ghazali"
     },
     {
       "name": "tarbiyat-al-awlad",
@@ -374,6 +1545,29 @@
         "ar": "مدير مهام إسلامي وملاحظات مشفّرة."
       },
       "visibility": "public"
+    },
+    {
+      "name": "zalam-min-al-gharb",
+      "emoji": "🕌",
+      "categories": [
+        "learning"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "PWA",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "ظلام من الغرب — Darkness from the West",
+        "fr": "Zalam Min Al Gharb — application éducative islamique trilingue.",
+        "ar": "ظلام من الغرب"
+      },
+      "visibility": "public",
+      "library": "ghazali"
     }
   ]
 }
