@@ -482,25 +482,6 @@
       "visibility": "public"
     },
     {
-      "name": "arabic-keyboard",
-      "emoji": "🕌",
-      "categories": [
-        "arabic"
-      ],
-      "badge": "new",
-      "status": "dev",
-      "tags": [
-        "Islamic",
-        "arabic"
-      ],
-      "desc": {
-        "en": "Virtual Arabic keyboard for the browser — type Arabic anywhere.",
-        "fr": "Clavier arabe virtuel pour le navigateur — tapez en arabe partout.",
-        "ar": "لوحة مفاتيح عربية افتراضية للمتصفح — اكتب بالعربية في أي مكان."
-      },
-      "visibility": "public"
-    },
-    {
       "name": "arabic-speaker",
       "emoji": "🗣",
       "categories": [
@@ -614,27 +595,6 @@
         "en": "Version 1.0 · Single-file HTML app · 830 KB · 139 sections · 434+ functions · 3 languages · Zero dependencies",
         "fr": "Builders Of Light — explorez et expérimentez !",
         "ar": "Builders Of Light — استكشف وجرّب!"
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "cowsay",
-      "emoji": "🐄",
-      "categories": [
-        "learning"
-      ],
-      "badge": "new",
-      "status": "dev",
-      "tags": [
-        "math",
-        "ASCII-art",
-        "fun-facts",
-        "kids"
-      ],
-      "desc": {
-        "en": "A fun ASCII cow that solves math expressions and shares amazing facts — pick a category and learn!",
-        "fr": "Une vache ASCII amusante qui résout des expressions mathématiques et partage des faits étonnants — choisissez une catégorie et apprenez !",
-        "ar": "بقرة ASCII مرحة تحل التعبيرات الرياضية وتشارك حقائق مذهلة — اختر فئة وتعلم!"
       },
       "visibility": "public"
     },
@@ -1631,28 +1591,6 @@
       "visibility": "public"
     },
     {
-      "name": "sada",
-      "emoji": "🌊",
-      "categories": [
-        "learning",
-        "arabic"
-      ],
-      "badge": "stable",
-      "status": "stable",
-      "tags": [
-        "content-archive",
-        "564-files",
-        "multilingual",
-        "educational"
-      ],
-      "desc": {
-        "en": "564 self-contained HTML files across 3 languages (EN/FR/AR) for the Workshop-DIY educational ecosystem.",
-        "fr": "564 fichiers HTML autonomes en 3 langues (EN/FR/AR) pour l'écosystème éducatif Workshop-DIY.",
-        "ar": "564 ملف HTML مستقل بـ 3 لغات (EN/FR/AR) للمنظومة التعليمية Workshop-DIY."
-      },
-      "visibility": "public"
-    },
-    {
       "name": "salat-times",
       "emoji": "🕌",
       "categories": [
@@ -1673,30 +1611,6 @@
         "en": "A single-file Islamic prayer times web app with micro:bit V2 Adhan Lantern support.",
         "fr": "Application web de horaires de prière islamique en fichier unique avec support micro:bit V2 Adhan Lantern.",
         "ar": "تطبيق ويب لمواقيت الصلاة الإسلامية في ملف واحد مع دعم فانوس الأذان micro:bit V2."
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "satellites",
-      "emoji": "🛰️",
-      "categories": [
-        "learning",
-        "arabic",
-        "classroom"
-      ],
-      "badge": "stable",
-      "status": "stable",
-      "tags": [
-        "satellite-tracking",
-        "astronomy",
-        "Islamic-heritage",
-        "interactive",
-        "kids"
-      ],
-      "desc": {
-        "en": "An interactive educational experience about satellites, orbital mechanics, and the Arab astronomical heritage that made it all possible.",
-        "fr": "Expérience éducative interactive sur les satellites, la mécanique orbitale et l'héritage astronomique arabe qui a rendu tout cela possible.",
-        "ar": "تجربة تعليمية تفاعلية عن الأقمار الصناعية وميكانيكا المدارات والتراث الفلكي العربي الذي جعل كل ذلك ممكنًا."
       },
       "visibility": "public"
     },
@@ -1830,75 +1744,6 @@
         "en": "Islamic Task Manager & Secure Notes",
         "fr": "Gestionnaire de tâches islamique et notes sécurisées.",
         "ar": "مدير مهام إسلامي وملاحظات مشفّرة."
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "time-machine",
-      "emoji": "🕰️",
-      "categories": [
-        "learning",
-        "arabic"
-      ],
-      "badge": "new",
-      "status": "dev",
-      "tags": [
-        "Islamic-scientists",
-        "history",
-        "game",
-        "interactive",
-        "kids"
-      ],
-      "desc": {
-        "en": "An interactive educational game about Muslim scientists who changed the world.",
-        "fr": "Jeu éducatif interactif sur les scientifiques musulmans qui ont changé le monde.",
-        "ar": "لعبة تعليمية تفاعلية عن العلماء المسلمين الذين غيّروا العالم."
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "warsha",
-      "emoji": "🔩",
-      "categories": [
-        "hardware"
-      ],
-      "badge": "new",
-      "status": "stable",
-      "tags": [
-        "BLE",
-        "git",
-        "linux",
-        "HTML"
-      ],
-      "desc": {
-        "en": "Warsha — Workshop-DIY interactive workshop builder.",
-        "fr": "Warsha — créateur d'ateliers interactifs Workshop-DIY.",
-        "ar": "ورشة — منشئ ورش عمل تفاعلية من Workshop-DIY."
-      },
-      "visibility": "public"
-    },
-    {
-      "name": "web-kids",
-      "emoji": "🕷️",
-      "categories": [
-        "learning",
-        "arabic"
-      ],
-      "badge": "new",
-      "status": "stable",
-      "tags": [
-        "BLE",
-        "TTS",
-        "game",
-        "linux",
-        "HTML",
-        "LED",
-        "kids"
-      ],
-      "desc": {
-        "en": "A zero-dependency, single-file educational coding platform for kids aged 6–14.",
-        "fr": "Web Kids — explorez et expérimentez !",
-        "ar": "Web Kids — استكشف وجرّب!"
       },
       "visibility": "public"
     },
