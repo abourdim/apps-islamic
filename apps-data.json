@@ -1366,6 +1366,27 @@
       "visibility": "public"
     },
     {
+      "name": "mushkilat",
+      "emoji": "📖",
+      "categories": [
+        "tools"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "PWA",
+        "developer-tool",
+        "web-app"
+      ],
+      "desc": {
+        "en": "📖 مشكلات في طريق الحياة الإسلامية — Problems on the Islamic Path",
+        "fr": "Mushkilat — application Workshop-DIY.",
+        "ar": "مشكلات في طريق الحياة الإسلامية"
+      },
+      "visibility": "public"
+    },
+    {
       "name": "nahwa-tafsir-mawdui",
       "emoji": "🌊",
       "categories": [
@@ -1720,6 +1741,27 @@
         "en": "شاهد على العصر — Ghazali: Witness of the Era",
         "fr": "Shahid Ala Al Asr — application éducative islamique trilingue.",
         "ar": "شاهد على العصر"
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "taamulat",
+      "emoji": "🌿",
+      "categories": [
+        "tools"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "PWA",
+        "developer-tool",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🌿 Reflections on Religion & Life — تأملات في الدين والحياة",
+        "fr": "Taamulat — application Workshop-DIY.",
+        "ar": "تأملات في الدين والحياة"
       },
       "visibility": "public"
     },
