@@ -14,6 +14,7 @@ const I18N = {
     filter_all: "All",
     filter_arabic: "Arabic & Islamic", filter_learning: "Books & Learning",
     filter_ai: "AI", filter_tools: "Tools",
+    filter_classroom: "Classroom", filter_microbit: "micro:bit", filter_hardware: "Hardware",
     lib_ghazali: "Al-Ghazali", lib_messiri: "El-Messiri", lib_ulwan: "Ulwan",
     shuffle: "Shuffle",
     no_results: "Nothing found. Try another keyword 🔍",
@@ -53,6 +54,7 @@ const I18N = {
     filter_all: "Tous",
     filter_arabic: "Arabe & Islamique", filter_learning: "Livres & Apprentissage",
     filter_ai: "IA", filter_tools: "Outils",
+    filter_classroom: "Classe", filter_microbit: "micro:bit", filter_hardware: "Matériel",
     lib_ghazali: "Al-Ghazali", lib_messiri: "El-Messiri", lib_ulwan: "Ulwan",
     shuffle: "Mélanger",
     no_results: "Rien trouvé. Essaie un autre mot 🔍",
@@ -92,6 +94,7 @@ const I18N = {
     filter_all: "الكل",
     filter_arabic: "عربي وإسلامي", filter_learning: "كتب وتعلّم",
     filter_ai: "ذكاء", filter_tools: "أدوات",
+    filter_classroom: "فصل", filter_microbit: "ميكروبت", filter_hardware: "عتاد",
     lib_ghazali: "الغزالي", lib_messiri: "المسيري", lib_ulwan: "العلوان",
     shuffle: "خلط",
     no_results: "لم يتم العثور على شيء. جرّب كلمة أخرى 🔍",
@@ -160,7 +163,7 @@ const confettiCanvas = document.getElementById("confetti-canvas");
 
 let currentFilter = "";
 let currentStatusFilter = "";
-let currentLibrary = "";
+let currentLibrary = "ghazali";
 
 /* ============================================================
    INLINE APP DATA
