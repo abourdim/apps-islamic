@@ -1568,6 +1568,321 @@
       },
       "visibility": "public",
       "library": "ghazali"
+    },
+    {
+      "name": "al-maqlub",
+      "emoji": "↩️",
+      "categories": [
+        "arabic",
+        "ai"
+      ],
+      "badge": "dev",
+      "status": "dev",
+      "visibility": "public",
+      "tags": [
+        "arabic",
+        "reverse",
+        "language"
+      ],
+      "desc": {
+        "en": "Arabic text reversal and transformation tool.",
+        "fr": "Outil de transformation de texte arabe.",
+        "ar": "أداة عكس وتحويل النص العربي."
+      }
+    },
+    {
+      "name": "arabic-speaker",
+      "emoji": "🗣",
+      "categories": [
+        "arabic"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "HTML",
+        "Islamic",
+        "arabic",
+        "web-app"
+      ],
+      "desc": {
+        "en": "🗣️ Arabic Speech App (Browser-Only)",
+        "fr": "Arabic Speaker — application Workshop-DIY.",
+        "ar": "تطبيق عربي وإسلامي تفاعلي من Workshop-DIY."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "arabic-translator",
+      "emoji": "🌐",
+      "categories": [
+        "arabic"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "arabic",
+        "translate",
+        "browser-only",
+        "no-server"
+      ],
+      "desc": {
+        "en": "Translate text to and from Arabic directly in the browser — no server, no API key, fully offline-capable.",
+        "fr": "Traduisez du texte vers et depuis l'arabe dans le navigateur — sans serveur, sans clé API, fonctionne hors ligne.",
+        "ar": "ترجم النصوص من وإلى العربية مباشرة في المتصفح — بدون خادم، بدون مفتاح API، يعمل بدون إنترنت."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "elarabya",
+      "emoji": "🕌",
+      "categories": [
+        "arabic"
+      ],
+      "badge": "new",
+      "status": "dev",
+      "tags": [
+        "Islamic",
+        "arabic"
+      ],
+      "desc": {
+        "en": "Arabic language learning tools — grammar, vocabulary and exercises.",
+        "fr": "Outils d'apprentissage de la langue arabe — grammaire, vocabulaire et exercices.",
+        "ar": "أدوات تعلم اللغة العربية — قواعد، مفردات وتمارين."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "fihris",
+      "emoji": "📂",
+      "categories": [
+        "tools",
+        "learning",
+        "arabic"
+      ],
+      "badge": "new",
+      "status": "stable",
+      "tags": [
+        "BLE",
+        "camera",
+        "micro:bit",
+        "WLED",
+        "IoT",
+        "linux",
+        "security",
+        "HTML",
+        "robot",
+        "LED",
+        "kids"
+      ],
+      "desc": {
+        "en": "The Workshop-DIY App Catalog",
+        "fr": "Fihris — explorez et expérimentez !",
+        "ar": "Fihris — استكشف وجرّب!"
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "ierab",
+      "emoji": "🕌",
+      "categories": [
+        "arabic"
+      ],
+      "badge": "new",
+      "status": "dev",
+      "tags": [
+        "Islamic",
+        "arabic"
+      ],
+      "desc": {
+        "en": "Arabic grammar (I'rab) interactive exercises and lessons.",
+        "fr": "Exercices interactifs de grammaire arabe (I'rab) et leçons.",
+        "ar": "تمارين تفاعلية في الإعراب والنحو العربي."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "jisr",
+      "emoji": "🌉",
+      "categories": [
+        "arabic",
+        "learning",
+        "hardware"
+      ],
+      "badge": "new",
+      "status": "stable",
+      "tags": [
+        "TTS",
+        "WLED",
+        "IoT",
+        "game",
+        "HTML",
+        "LED"
+      ],
+      "desc": {
+        "en": "Arabic etymology dictionary — trace the origins of words shared between Arabic, French and English.",
+        "fr": "Dictionnaire étymologique arabe — retracez les origines des mots partagés entre arabe, français et anglais.",
+        "ar": "قاموس أصول الكلمات العربية — تتبّع أصول الكلمات المشتركة بين العربية والفرنسية والإنجليزية."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "kalami",
+      "emoji": "🗣️",
+      "categories": [
+        "arabic",
+        "microbit",
+        "ai"
+      ],
+      "badge": "new",
+      "status": "dev",
+      "tags": [
+        "BLE",
+        "TTS",
+        "STT",
+        "git",
+        "linux",
+        "HTML",
+        "LED"
+      ],
+      "desc": {
+        "en": "Arabic voice translator — speak in Arabic and get real-time translation to French and English.",
+        "fr": "Traducteur vocal arabe — parlez en arabe et obtenez une traduction en temps réel vers le français et l'anglais.",
+        "ar": "مترجم صوتي عربي — تحدث بالعربية واحصل على ترجمة فورية إلى الفرنسية والإنجليزية."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "sada",
+      "emoji": "🌊",
+      "categories": [
+        "learning",
+        "arabic"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "content-archive",
+        "564-files",
+        "multilingual",
+        "educational"
+      ],
+      "desc": {
+        "en": "564 self-contained HTML files across 3 languages (EN/FR/AR) for the Workshop-DIY educational ecosystem.",
+        "fr": "564 fichiers HTML autonomes en 3 langues (EN/FR/AR) pour l'écosystème éducatif Workshop-DIY.",
+        "ar": "564 ملف HTML مستقل بـ 3 لغات (EN/FR/AR) للمنظومة التعليمية Workshop-DIY."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "arabic-keyboard",
+      "emoji": "🕌",
+      "categories": [
+        "tools"
+      ],
+      "badge": "new",
+      "status": "dev",
+      "tags": [
+        "Islamic",
+        "arabic"
+      ],
+      "desc": {
+        "en": "Virtual Arabic keyboard for the browser — type Arabic anywhere.",
+        "fr": "Clavier arabe virtuel pour le navigateur — tapez en arabe partout.",
+        "ar": "لوحة مفاتيح عربية افتراضية للمتصفح — اكتب بالعربية في أي مكان."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "arabic-tts",
+      "emoji": "🔊",
+      "categories": [
+        "ai",
+        "tools"
+      ],
+      "badge": "new",
+      "status": "stable",
+      "tags": [
+        "BLE",
+        "TTS",
+        "game",
+        "git",
+        "linux",
+        "HTML",
+        "LED"
+      ],
+      "desc": {
+        "en": "Modern Standard Arabic Text-to-Speech system using VITS + HiFi-GAN, FastAPI and PyTorch.",
+        "fr": "Synthèse vocale arabe standard moderne avec VITS + HiFi-GAN, FastAPI et PyTorch.",
+        "ar": "نظام تحويل النص إلى كلام بالعربية الفصحى باستخدام VITS + HiFi-GAN و FastAPI و PyTorch."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "piper-arabic-tts",
+      "emoji": "🎙️",
+      "categories": [
+        "ai"
+      ],
+      "badge": "stable",
+      "status": "beta",
+      "tags": [
+        "arabic",
+        "piper",
+        "WASM",
+        "TTS",
+        "neural"
+      ],
+      "desc": {
+        "en": "High-quality Arabic text-to-speech using Piper neural TTS compiled to WebAssembly — runs in the browser, no cloud needed.",
+        "fr": "Synthèse vocale arabe haute qualité avec Piper TTS neuronal compilé en WebAssembly — fonctionne dans le navigateur.",
+        "ar": "تحويل نص إلى كلام عربي عالي الجودة بتقنية Piper TTS العصبية عبر WebAssembly — يعمل في المتصفح."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "satellites",
+      "emoji": "🛰️",
+      "categories": [
+        "learning",
+        "classroom"
+      ],
+      "badge": "stable",
+      "status": "stable",
+      "tags": [
+        "satellite-tracking",
+        "astronomy",
+        "Islamic-heritage",
+        "interactive",
+        "kids"
+      ],
+      "desc": {
+        "en": "An interactive educational experience about satellites, orbital mechanics, and the Arab astronomical heritage that made it all possible.",
+        "fr": "Expérience éducative interactive sur les satellites, la mécanique orbitale et l'héritage astronomique arabe qui a rendu tout cela possible.",
+        "ar": "تجربة تعليمية تفاعلية عن الأقمار الصناعية وميكانيكا المدارات والتراث الفلكي العربي الذي جعل كل ذلك ممكنًا."
+      },
+      "visibility": "public"
+    },
+    {
+      "name": "time-machine",
+      "emoji": "🕰️",
+      "categories": [
+        "learning"
+      ],
+      "badge": "new",
+      "status": "dev",
+      "tags": [
+        "Islamic-scientists",
+        "history",
+        "game",
+        "interactive",
+        "kids"
+      ],
+      "desc": {
+        "en": "An interactive educational game about Muslim scientists who changed the world.",
+        "fr": "Jeu éducatif interactif sur les scientifiques musulmans qui ont changé le monde.",
+        "ar": "لعبة تعليمية تفاعلية عن العلماء المسلمين الذين غيّروا العالم."
+      },
+      "visibility": "public"
     }
   ]
 }
